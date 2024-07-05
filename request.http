@@ -1,0 +1,11 @@
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "nvinas@sa.da",
+  "password": "password"
+}
+
+### movies
+GET http://localhost:3000/index/movies
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im52aW5hc0BzYS5kYSIsImV4cCI6MTcyMDIwMTEyOH0.oEpxAwvQmCf5KQdp1_iDWWBoJhWQUkbrerVPvqJD_0Q
